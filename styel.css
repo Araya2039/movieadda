@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.itemCenter{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+/* Default styles for full monitor size */
+.midea {
+    display: flex;
+    flex-direction: row; /* Default to row layout */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    gap: 20px;
+
+    
+}
+
+.midea h1 {
+    font-size: 24px;
+}
+
+.midea .links {
+    display: flex;
+    flex-direction: row; /* Links in a row */
+    gap: 20px;
+}
+
+/* Media query for screens with width <= 1200px */
+@media (max-width: 1200px) {
+    .midea {
+        flex-direction: column; /* Switch to column layout */
+        align-items: flex-start; /* Align items to the start */
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .midea .links {
+        flex-direction: column; /* Stack links vertically */
+        gap: 10px;
+        align-items: flex-start; /* Align links to the start */
+    }
+}
+
+.footer{
+    height: 10vh;
+    color: aqua;
+    background-color: rgb(29, 28, 28);
+}
+
+.futter_text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.dis{
+    display: flex;
+    /* grid-column: row; */
+    flex-direction: column; 
+    margin-bottom: 0;
+} 
+
+.para {
+    margin-bottom: 0px;
+}
+
+.decor {
+    text-decoration: none;
+    color: #030202;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100px; /* Adjust the navbar height */
+    background-color: #333; /* Background color for navbar */
+  }
+  
+  /* Style for the div inside the navbar */
+  .navbar .logo-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the logo */
+    align-items: center; /* Vertically center the logo */
+  }
+  
+  /* Style for the logo image */
+  .navbar .logo-container img {
+    max-height: 80px; /* Adjust the size of the logo */
+    max-width: 80%; /* Ensure the image is responsive */
+  }
+
+
+
+
+
+
+
+
